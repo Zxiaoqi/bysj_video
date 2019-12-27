@@ -1,0 +1,120 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #3895e8;
+}
+.wrap {
+  box-sizing: border-box;
+  height: 100vh;
+  background: url(../img/bj.jpg) no-repeat center;
+  background-size: auto 100vh;
+  position: relative;
+}
+.reg_div{
+  margin:auto;
+  width: 500px;
+  height: 500px;
+  border:1px solid #333;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 100px;
+  background-color: #ffffff;
+}
+.login_div{
+  height: 330px!important;
+}
+.reg_div p{
+  padding: 30px 0px;
+  font-size: 30px;
+}
+
+.reg_ul{
+  width: 100%;
+}
+.reg_ul li{
+  margin: auto;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 10px;
+}
+.reg_ul li span{
+  float: left;
+  width:100px;
+  text-align:right;
+  font-size: 16px;
+  font-family: "楷体";
+  font-weight: 600;
+  display:inline-block;
+  margin: auto;
+  margin-left:30px;
+  margin-top: 10px;
+}
+.reg_ul li span.tip{margin:6px 0 0 10px;width:40px;text-align:left;}
+.reg_ul li input{
+  float: left;
+  width: 228px;
+  height: 30px;
+  border:1px solid #cecece;
+  border-radius: 3px;
+  padding-left: 20px;
+  outline:medium;
+  margin-left: 10px;
+}
+.reg_ul li button{
+  margin: auto;
+  color: #ffffff;
+  background-color: #3895e8;
+  font-size: 16px;
+  padding: 10px 60px;
+  outline: inherit;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.back-login{
+  font-size: 14px;
+  color: #899bab;
+  font-family: "微软雅黑";
+  padding:25px 30px 0;
+}
+.back-login a{
+  color: #7ec1fd;
+}
+.back-login:hover a{
+  color: #308bda;
+}
+.red_button:hover{
+  color: #fff;
+  background-color: #0033FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.

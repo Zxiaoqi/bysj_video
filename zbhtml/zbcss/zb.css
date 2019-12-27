@@ -1,0 +1,81 @@
+.zhibo-box .storey-box{
+	height: 403px!important;
+}
+.zhibo-box .storey-box .zhibo-module{
+	width: 212px!important;
+    height: 175px!important;
+}
+.zhibo-module .pic{
+	width: 206px!important;
+    height: 122px!important;
+}
+.topbar{
+	background-color:#2894ff!important;}
+.Classified-section{
+	background-color:#2894ff!important;}
+.icon-triangle,.icon-triangle1{
+	border: 3px solid #2894ff!important;
+	border-top-color: #fff!important;
+}
+.video-bg{
+	height: 498px;
+	background-image: url("../../img/直播子页/7bf66f0410edb2576590fb68b92a2e3c.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+    background-position: 0 -50px;}
+.container-v{
+	width:798px;
+	height: 498px;
+	margin:0 auto;
+}
+.controlWrap{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+}
+.play{
+	float:left;
+	width:50px;
+	height:30px;
+	background-color:#00b0e8;
+	border-radius:2px;
+	color:#fff;
+	cursor:pointer;
+		}
+.now{
+	float:left;
+	width:60px;
+	height:30px;
+	color:#666;
+}
+.split{
+	float:left;
+	width:20px;
+	height:30px;
+	color:#333;
+}
+.duration{
+	float:left;
+	width:60px;
+	height:30px;
+	color:#666;
+}
+.voice{
+	float:left;
+	width:20px;
+	height:20px;
+	line-height:20px;
+	margin:5px 0px 5px 5px;
+	color:#fff;
+	border: 1px solid #0089ce;
+	border-radius: 10px;
+	background-color: #0089ce;
+	cursor:pointer;
+}
+.vol{
+	float:left;
+	width:60px;
+	height:30px;
+	color:#F8F8F8;
+}

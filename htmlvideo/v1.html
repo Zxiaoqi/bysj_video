@@ -1,0 +1,165 @@
+<!DOCTYPE>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>LAN星播放器</title>
+<script src="../login/js/jquery.min.js"></script>
+</head>
+<style type="text/css">
+		*{margin: 0px;padding:0px;font-size:14px}
+		body{
+			background-color: #c4daffd4;
+		}
+		.container{
+			width:850px;
+			height: 500px;
+			margin:100px auto;
+		}
+		#video{
+			border: 10px solid #22222282;
+			border-radius: 10px;
+		}
+		.controlWrap{
+			width:100%;
+			height:30px;
+			line-height:30px;
+			text-align:center;
+		}
+		.play{
+			float:left;
+			width:50px;
+			height:30px;
+			background-color:#00b0e8;
+			border-radius:2px;
+			color:#fff;
+			cursor:pointer;
+		}
+		.now{
+			float:left;
+			width:60px;
+			height:30px;
+			color:#666;
+		}
+		.split{
+			float:left;
+			width:20px;
+			height:30px;
+			color:#333;
+		}
+		.duration{
+			float:left;
+			width:60px;
+			height:30px;
+			color:#666;
+		}
+		.voice{
+			float:left;
+			width:20px;
+			height:20px;
+			line-height:20px;
+			margin:5px 0px 5px 5px;
+			color:#fff;
+			background-color: #0089CE;
+			border: 1px solid #0089ce;
+			border-radius: 10px;
+			cursor:pointer;
+		}
+		.vol{
+			float:left;
+			width:60px;
+			height:30px;
+			color:#666;
+		}
+	</style>
+<body>
+	<div class="container">
+		<video id="video" preloader width="800" height="450">
+			<source src="" id="videourl" type="video/mp4">
+		</video>
+		<div id="controlWrap" class="controlWrap">
+			<div id="play_btn" class="play">播放</div>
+			<div id="now_time" class="now">0:00</div>
+			<div class="split">/</div>
+			<div id="duration_time" class="duration">0:00</div>
+			<div id="voice_minus" class="voice">-</div>
+			<div id="voice_plus" class="voice">+</div>
+			<div id="voice" class="vol">100</div>
+		</div>
+	</div>
+	<script type="application/javascript">
+			var v = document.getElementById('video');
+
+			var playBtn = document.getElementById('play_btn');
+
+			playBtn.addEventListener("click",function(){
+				if(v.paused){
+					v.play();
+					playBtn.innerHTML = '暂停';
+				}else{
+					v.pause();
+					playBtn.innerHTML = '播放';
+				}
+			});
+			var nowTime = document.getElementById('now_time');
+			var duration = document.getElementById('duration_time');
+			nowTime.innerHTML = "00:00";
+			duration.innerHTML = "00:00";
+
+			function parseTime(time){
+				time = Math.floor(time);
+				var _m,_s;
+				_m = Math.floor(time/60);
+				_s = time - _m*60;
+				if(_m<10){
+					_m = '0' + _m;
+				}
+				if(_s<10){
+					_s = '0' + _s;
+				}
+				return _m + ':' + _s;
+			}
+			
+			v.addEventListener('timeupdate',function(){
+				nowTime.innerHTML = parseTime(v.currentTime);
+			});
+
+			v.addEventListener('loadedmetadata',function(){
+				duration.innerHTML = parseTime(v.duration);
+			});
+			
+			var vo = document.getElementById('voice');
+			vo.innerHTML = parseInt(v.volume*100,10);
+			var voP = document.getElementById('voice_plus');
+			var voM = document.getElementById('voice_minus');
+
+			voP.addEventListener('click',function(){
+				v.volume>0.9?v.volume = 1:v.volume += 0.1;
+				vo.innerHTML = parseInt(v.volume*100,10);
+			});
+			voM.addEventListener('click',function(){
+				v.volume<0.1?v.volume = 0:v.volume -= 0.1;
+				vo.innerHTML = parseInt(v.volume*100,10);
+			});
+
+		</script>
+<script type="text/javascript">
+	var url=location.search;
+	url=url.toString();
+	var Request = new Object();
+	$("#videourl")[0].src;
+	if(url.indexOf("?")!=-1)
+	{
+		var str = url.substr(1); //去掉?号
+		var strs = str.split("&");
+		for(var i=0;i<strs.length;i++)
+		{
+			Request[strs[i].split("=")[0]]=decodeURI(strs[i].split("=")[1]);
+		}
+	}
+	var osrc=Request.src;
+	console.log(osrc);
+	$("#videourl").attr("src",osrc);
+</script>
+</body>
+</html>

@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>网页</title>
+  <link rel="stylesheet" type="text/css" href="../css/web.css"/>
+  </head>
+ <body>
+	<div class="topbar">
+		<div class="container"> 
+			<div class="humble" title="影视">影视</div>
+			<div class="navigation">
+			<a onclick="return false;" href="javascript:;" class="map"><em>导航</em>
+			<i class="icon-triangle"></i>
+			</a>
+				<div class="list">
+					<h4>休闲娱乐</h4>
+					<div class="list-a">
+						<a href="">电影</a>
+						<a href="">动漫</a>
+						<a href="">综艺</a>
+						<a href="">搞笑</a>
+						<a href="">直播</a>
+						<a href="">视频</a>
+						<a href="">页游</a>
+						<a href="">明星</a>
+						<a href="">交友</a>
+						<a href="">体育</a>
+						<a href="">星座</a>
+						<a href="">电视剧</a>
+						<a href="">小游戏</a>
+					</div>
+				</div>
+				<div class="list">
+					<h4>休闲娱乐</h4>
+					<div class="list-a">
+						<a href="">电影</a>
+						<a href="">动漫</a>
+						<a href="">综艺</a>
+						<a href="">搞笑</a>
+						<a href="">直播</a>
+						<a href="">视频</a>
+						<a href="">页游</a>
+						<a href="">明星</a>
+						<a href="">交友</a>
+						<a href="">体育</a>
+						<a href="">星座</a>
+						<a href="">电视剧</a>
+						<a href="">小游戏</a>
+					</div>
+				</div>
+				<div class="list" style="border:none;">
+					<h4>休闲娱乐</h4>
+					<div class="list-a">
+						<a href="">电影</a>
+						<a href="">动漫</a>
+						<a href="">综艺</a>
+						<a href="">搞笑</a>
+						<a href="">直播</a>
+						<a href="">视频</a>
+						<a href="">页游</a>
+						<a href="">明星</a>
+						<a href="">交友</a>
+						<a href="">体育</a>
+						<a href="">星座</a>
+						<a href="">电视剧</a>
+						<a href="">小游戏</a>
+					</div>
+				</div>
+			</div>
+			<div class="record">观看记录</div>
+			<div class="topbar-info">
+				<a href="">一键登录</a>
+				<a href="">注册</a>
+			</div>
+		</div>
+	</div>
+	<div class="Classified-section">
+		<div class="nav-container">
+			<div class="nav">
+				<ul>
+					<li>
+						<a href="" title="首页">首页</a>
+					</li>
+					<li>
+						<a href="" title="电视剧">电视剧</a>
+					</li>
+					<li>
+						<a href="" title="电影">电影</a>
+					</li>
+					<li>
+						<a href="" title="综艺">综艺</a>
+					</li>
+					<li>
+						<a href="" title="动漫">动漫</a>
+					</li>
+					<li>
+						<a href="" title="直播">直播</a>
+					</li>
+					<li>
+						<a href="" title="科技">科技</a>
+					</li>
+					<li>
+						<a href="" title="纪录片">纪录片</a>
+					</li>
+					<li>
+						<a href="" title="新闻">新闻</a>
+					</li>
+					<li>
+						<a href="" title="游戏">游戏</a>
+					</li>
+				</ul>
+				<div class="nav-more">
+					<a onclick="return false;" href="javascript:;" class="more">更多<i class="icon-triangle1"></i>
+					</a>
+					<div class="popup-more">
+						<a href="" title="搞笑">搞笑</a>
+						<a href="" title="美女">美女</a>
+						<a href="" title="排行榜">排行榜</a>
+						<a href="" title="网络自制">网络自制</a>
+						<a href="" title="周末影院">周末影院</a>
+					</div>
+				</div>
+			</div>
+			<div class="header-search">
+				<form action="" class="search-form">
+					<input type="search" name="keyword" class="search-text">
+					<input type="submit" value="" class="search-btn">
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="lo-wrapper">
+		<div class="most-box zone-wrap">
+			<div class="headline">
+				<h3 class="name">推广</h3>
+			</div>
+			<div class="big-box">
+				<div class="box">
+					<div class="img-g" style="left: 0px;transition: left 1s;">
+						<img class="on" src="../img/1.jpg" alt="1">
+						<img src="../img/2.jpg" alt="2">
+						<img src="../img/3.jpg" alt="3">
+						<img src="../img/4.jpg" alt="4">
+					</div>
+					<div class="pt">
+						<ul class="pt-u">
+							<li class="pt-l"></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+					<div class="btn">
+						<div class="btn-left">&lt</div>
+						<div class="btn-right">&gt</div>	
+					</div>
+				</div>
+			<div class="recommend-module">
+				<div class="groom-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="groom-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="groom-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="groom-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="groom-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="groom-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="groom-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="groom-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div id="dianshijv" class="dsj-box zone-wrap">
+			<div class="headline">
+				<h3 class="name">电视剧</h3>
+			</div>
+			<div class="recommend-module">
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+			</div>
+		</div>
+		<div id="dianshijv" class="dsj-box zone-wrap">
+			<div class="headline">
+				<h3 class="name">电视剧</h3>
+			</div>
+			<div class="recommend-module">
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+			</div>
+		</div>
+		<div id="dianshijv" class="dsj-box zone-wrap">
+			<div class="headline">
+				<h3 class="name">电视剧</h3>
+			</div>
+			<div class="recommend-module">
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+			</div>
+		</div>
+		<div id="dianshijv" class="dsj-box zone-wrap">
+			<div class="headline">
+				<h3 class="name">电视剧</h3>
+			</div>
+			<div class="recommend-module">
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+				<div class="series-module">
+					<a href="" target="_black" title=""></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="side-module" style="top:177px;">
+		<div class="nav-bg"></div>
+		<div class="nav-list">
+			<div sortindex="1" class="item">直播</div>
+			<div sortindex="2" class="item">动画</div>
+			<div sortindex="3" class="item">番剧</div>
+			<div sortindex="4" class="item">国创</div>
+			<div sortindex="5" class="item">音乐</div>
+			<div sortindex="6" class="item">游戏</div>
+			<div sortindex="7" class="item">舞蹈</div>
+			<div sortindex="8" class="item">科技</div>
+			<div sortindex="9" class="item">数码</div>
+			<div sortindex="10" class="item">生活</div>
+			<div sortindex="11" class="item">鬼畜</div>
+			<div sortindex="12" class="item">时尚</div>
+			<div sortindex="13" class="item">广告</div>
+			<div sortindex="14" class="item">娱乐</div>
+			<div sortindex="15" class="item">电影</div>
+			<div sortindex="16" class="item">TV剧</div>
+			<div sortindex="17" class="item">影视</div>
+			<div sortindex="18" class="item">纪录片</div>
+		</div>	
+	</div>
+	<script type="text/javascript" src="../js/webjs.js"></script>
+</body>
+</html>

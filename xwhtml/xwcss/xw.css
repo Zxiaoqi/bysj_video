@@ -1,0 +1,309 @@
+.big-box{
+	width: 1160px;
+	height:310px!important;
+	margin: 11px auto 30px;
+	overflow: hidden;
+	border-radius: 4px;
+}
+.box{
+	position:relative;
+  	width: 1140px!important;
+  	height: 310px!important;
+	float:left;
+	}
+.img-g{
+ 	position:relative;
+	width: 100%;
+  	height: 100%;
+	}
+.img-g img{
+  	width: 100%;
+  	height: 100%;
+	position:absolute;
+	float:left;
+	opacity:0;
+	}
+.gg-box .storey-box{
+	overflow: hidden;
+}
+.gg-box .storey-box .gg-module{
+	float: left;
+    margin: 0 20px 20px 0;
+    position: relative;
+    width: 160px;
+    height: 148px;
+    font-size: 12px;
+    overflow: hidden;
+}
+.gg-module .pic{
+    position: relative;
+    width: 160px;
+    height: 100px;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 4px;
+}
+.gg-module .pic .snum{
+    position: absolute;
+    bottom: 0;
+    height: 34px;
+    width: 100%;
+}
+.gg-module .pic .snum .auther{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    left: 4px;
+    bottom: 0;
+    text-align: left;
+    background-color: #0000000c;
+}
+.gg-module .pic .snum .online{
+    right: 4px;
+    text-align: right;
+    bottom: 0;
+}
+.gg-module .pic .snum span{
+    line-height: 20px;
+    height: 20px;
+    display: inline-block;
+    width: 47%;
+    overflow: hidden;
+    font-size: 12px;
+    vertical-align: bottom;
+    position: absolute;
+    color: #fff;
+    font-weight: 200;
+}
+.gg-module .pic .snum .online i{
+    display: inline-block;
+    width: 13px;
+    height: 10px;
+    vertical-align: baseline;
+    margin-right: 5px;
+    background:url(人数.png);
+    background-size: 100%;
+}
+.gg-module .t{
+	padding-top: 8px;
+    height: 40px;
+    line-height: 20px;
+    transition: all .2s linear;
+    color: #222;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+    text-align: left;
+}
+.gg-module:hover .t{
+	color: #00a1d6;
+}
+.gg-module:hover .num{
+	display: none; 
+	transition: all .3s ; 
+}
+.gg-module .num{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 20px;
+    line-height: 20px;
+    color: #9ba3ab;
+    background-color: #fff;
+    transition: all .3s;
+}
+.gg-module .num span,
+.adv-list li .r span{
+	line-height: 12px;
+    height: 14px;
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    padding-top: 2px;
+    font-size: 12px;
+}
+.adv-list li .r span{
+	width: 97px;
+	float: left;
+	color: #99a2aa;
+}
+.gg-module .num .play .icon,
+.adv-list li .r .play .icon{
+	display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+    background-image: url(播放.png);
+    background-size: 100%;
+    vertical-align: top;
+}
+.gg-box .sec-rank{
+	float: left;
+	width: 260px;
+	min-height: 360px;
+	overflow: hidden;
+}
+.gg-box .sec-rank .rank-head{
+	height: 24px;
+	line-height: 24px;
+	margin-top: 15px;
+}
+.sec-rank .rank-head h3{
+	float: left;
+	font-size: 20px;
+	font-weight: 400; 
+}
+.sec-rank .rank-list-wrap{
+	width: 100%;
+	overflow: hidden;
+}
+.sec-rank .rank-list-wrap .rank-list{
+	padding-top: 16px;
+	padding-bottom: 15px;
+	min-height: 270px;
+	position: relative;
+}
+.rank-list .rank-item.first{
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+.rank-list .rank-item{
+	position: relative;
+	padding-left: 25px;
+	margin-top: 21px;
+	overflow: hidden;
+}
+.rank-list .rank-item.highlight .shu-num{
+	background: #5b6be4;
+}
+.rank-list .rank-item .shu-num{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0 3px;
+	color: #fff;
+	height: 18px;
+	line-height: 18px;
+	font-size: 12px;
+	min-width: 12px;
+	text-align: center;
+	background-color: #99dede;
+	border-radius: 4px;
+	font-weight: bolder;
+	font-style: normal;
+}
+.rank-list .rank-item .shu-info{
+	position: relative;
+	display: block;
+}
+.shu-info:hover .shu-detail{
+	color: #00a1d6;
+}
+.rank-list .rank-item .shu-info .shu-detail{
+	float: left;
+}
+.rank-list .rank-item .shu-detail .shu-title{
+	height: 18px;
+	line-height: 18px;
+	overflow: hidden;
+	font-size: 12px;
+}
+.sec-rank .more-link{
+	display: block;
+    height: 24px;
+    line-height: 24px;
+    font-size: 13px;
+    background-color: #dbedff;
+    text-align: center;
+    border: 1px solid #dbedff;
+    color: #222;
+    border-radius: 4px;
+    transition: .2s;
+}
+.more-link .icon-r{
+	display:inline-block; 
+}
+.more-link:hover{
+	background-color: #acd6ff;
+}
+.adv-box{
+	padding-right: 20px;
+	margin-bottom: 30px;
+	min-height: 400px;
+}
+.adv-list-cnt{
+	clear: both;
+	overflow: hidden;
+}
+.adv-list li{
+	float: left;
+	width: 50%;
+	border-bottom: 1px solid #e5e9ef;
+}
+.adv-list li .l-item{
+	height: 123px;
+	padding: 20px 20px 20px 0;
+	margin-right: 20px;
+	border-right: 1px solid #e5e9ef;
+}
+.adv-list li .l{
+	float: left;
+	height: 100%;
+	margin-right: 20px;
+	padding-top: 0;
+}
+.adv-box .pic{
+	position: relative;
+	width: 148px;
+	height: 98px;
+	overflow: hidden;
+	border-radius: 4px;
+}
+.adv-box .pic img{
+	margin: 0 auto;
+	outline: 0;
+	width: 100%;
+	height: 100%;
+}
+.adv-list li .r{
+	float: left;
+	width: 186px;
+}
+.adv-list li .r .title{
+	max-height: 40px;
+	height: 20px;
+	display: block;
+	overflow: hidden;
+	font-size: 12px;
+	word-wrap: break-word;
+    word-break: break-all;
+}
+.adv-list li .r .adv-desc{
+	color: #99a2aa;
+    word-wrap: break-word;
+    word-break: break-all;
+    padding-top: 14px;
+    margin-bottom: 14px;
+    overflow: hidden;
+    line-height: 20px;
+    height: 35px;
+    font-size: 12px;
+    clear: both;
+}
+.adv-list li .r .adv-info{
+	float: right;
+}
+.r .up-info{
+	float: left;
+	line-height: 12px;
+	font-size: 12px;
+	width: 65px;
+	display: inline-block;
+    vertical-align: top;
+    color: #99a2aa;
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 16px;
+}

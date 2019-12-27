@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- 重置文件 -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>LAN星登入</title>
+</head>
+<body>
+<div class="wrap">
+  <div class="login_div reg_div">
+    <p>登入</p>
+    <ul class="reg_ul">
+        <form id="myDialog" action="user.do&userlogin" style="text-align: center;" >
+         <li>
+            <span>用户名：</span>
+            <input type="text" name="" value="" placeholder="4-8位用户名" class="reg_user">
+            <span class="tip user_hint"></span>
+         </li>
+         <li>
+             <span>密码：</span>
+             <input type="password" name="" value="" placeholder="6-16位密码" class="reg_password">
+             <span class="tip password_hint"></span>
+         </li>
+         <li>
+      	    <button type="submit" name="button" class="login-btn">登入</button>
+         </li>
+        </form>
+    </ul>
+        <div class="back-login">没有账号, <a href="./reg.html">快速注册</a></div>
+  </div>
+ </div>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+ <div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+<p>适用浏览器：360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗. 不支持IE8及以下浏览器。</p>
+</div>
+</body>
+</html>
